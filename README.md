@@ -250,27 +250,6 @@ Example of the generated JSON structure:
 - **Key Library**: Newtonsoft.Json (JSON.NET)
 - **Type**: Console Application
 
-## 📦 Installation & Usage
-
-### Prerequisites
-- Newtonsoft.Json NuGet package
-
-### Build Instructions
-
-```bash
-# 1. Clone the repository
-git clone https://github.com/yourusername/ChatDataSystem.git
-
-# 2. Restore NuGet packages
-dotnet restore
-
-# 3. Build the project
-dotnet build
-
-# 4. Run the application
-dotnet run
-```
-
 ### First Run
 On first launch, the system will:
 1. Detect missing `chatData` file
@@ -326,14 +305,6 @@ The system includes built-in error handling:
 - **No chat data**: Auto-generates and prompts user
 - **Invalid message ID**: Returns null with error message
 - **Empty input**: Respects `notNullOrEmpty` flag
-
-## 🤝 Contributing
-
-Feel free to enhance the system:
-- Add weighted probabilities to Possibility class
-- Implement more sophisticated matching algorithms
-- Add support for multiple simultaneous conversations
-- Create a GUI interface
 
 ## 📄 License
 
